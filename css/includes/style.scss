@@ -1,0 +1,182 @@
+/***********************************
+   STYLEGUIDE CSS
+***********************************/
+body{
+	background-color: $bgGray;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	
+}
+h1, h2{
+	font-family: $gotham-book;
+}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+p {
+	font-family: $gotham-book;
+    font-size: 1.3em;
+    line-height: 150%;
+}
+
+.container{
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 15px 0 15px;
+}
+.header{
+	padding-bottom: 30px;
+}
+.left{
+	
+}
+.right{
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		list-style: none;
+		display: inline-block;
+		padding-right: 7px;
+		font-family: $gotham-book;
+	}
+	li:last-child{
+		padding-right: 0;
+	}
+	a{
+		text-decoration: none;
+		color: $black;
+	}
+}
+.logo{
+	width: 100%;
+	max-width: 250px;
+}
+.card{
+	padding: 15px;
+	margin: 15px auto;
+	background-color: $white;
+}
+.colors{
+	font-family: $gotham-book;
+}
+.color{
+	height: 30px;
+	padding: 10px;
+	margin: 10px 0 10px 0;
+	border: 1px solid $gray;
+}
+.orangeOne{
+	background: $orangeOne;
+}
+.orangeTwo{
+	background: $orangeTwo;
+}
+.orangeThree{
+	background: $orangeThree;
+}
+.orangeFour{
+	background: $orangeFour;
+}
+.black{
+	background: $black;
+}
+.gray{
+	background: $gray;
+}
+.lightGray{
+	background: $lightGray;
+}
+.bgGray{
+	background: $bgGray;
+}
+.white{
+	background: $white;
+}
+.purple{
+	background: $purple;
+}
+.blue{
+	background: $blue;
+}
+.green{
+	background: $green;
+}
+.peach{
+	background: $peach;
+}
+.font{
+	padding: 30px 0 30px 0;
+}
+.gotham-book{
+	font-family: $gotham-book;
+}
+.gotham-thin{
+	font-family: $gotham-thin;
+}
+.gotham-ultra{
+	font-family: $gotham-ultra;
+}
+.round-gotham{
+	font-family: $round-gotham;
+}
+.round-italic{
+	font-family: $round-italic;
+}
+.round-thin{
+	font-family: $round-thin;
+}
+.round-ultra{
+	font-family: $round-ultra;
+}
+.roboto-slab{
+	font-family: $roboto-slab;
+}
+
+.buttons{
+	ul{
+		padding: 0;
+	}
+	li{
+		list-style: none;
+		display: inline-block;
+	}
+}
+.spacing{
+	margin-bottom: 25px !important;
+}
+.large{
+	ul{
+		border: 1px solid #ddd;
+		padding: 25px;
+	}
+}
+.medium{
+	ul{
+		border: 1px solid #ddd;
+		padding: 25px;
+	}
+}
+.small{
+	ul{
+		border: 1px solid #ddd;
+		padding: 25px;
+	}
+}
+.guide{
+	text-align: center;
+	padding: 100px 0 100px 0;
+}
+.copyright{
+	text-align: right;
+	border-top: 1px solid $gray;
+	padding-top: 10px;
+	font-family: $gotham-book;
+	padding-bottom: 50px;
+}/* Scss Document */
+

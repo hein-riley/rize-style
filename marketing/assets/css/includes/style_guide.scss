@@ -1,0 +1,205 @@
+body{
+	font-family: $gotham-book;
+}
+h2{
+	font-family: $gotham-bold;
+}
+p{
+	font-size: 1.6rem;
+}
+.vishanti-wrapper {
+    height: 450px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+h1.vishanti-header {
+    top: 20%;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.agamotto-logo {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+}
+.left-col {
+    height: 100%;
+    float: left;
+    position: fixed;
+    width: 20%;
+	border-right: 1px solid #eee;
+	background: $lightGray;
+}
+.right-col {
+    float: right;
+    width: 80%;
+    padding: 0 15px;
+}
+.logo-wrapper {
+    padding: 15px;
+}
+.card{
+	margin: 35px 0;
+}
+.card-wrapper{
+
+}
+.color-info{
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		list-style: none;
+	}
+}
+
+/* COLOR HOVEROVERS */
+.orangeOne-bg:hover{
+	background-color: $orangeOne-hover;
+}
+.orangeTwo-bg:hover{
+	background-color: $orangeTwo-hover;
+}
+.orangeThree-bg:hover{
+	background-color: $orangeThree-hover;
+}
+.yellow-bg:hover{
+	background-color: $yellow-hover;
+}
+.purple-bg:hover{
+	background-color: $purple-hover;
+}
+.blue-bg:hover{
+	background-color: $blue-hover;
+}
+.green-bg:hover{
+	background-color: $green-hover;
+}
+.pink-bg:hover{
+	background-color: $pink-hover;
+}
+.black-bg:hover{
+	background-color: $black-hover;
+}
+.gray-bg:hover{
+	background-color: $gray-hover;
+}
+.lightGray-bg:hover{
+	background-color: $lightGray-hover;
+}
+.white-bg:hover{
+	background-color: $white-hover;
+}
+.info-box{
+	border-top: 2px solid #eee;
+	border-right: 2px solid #eee;
+	border-bottom: 2px solid #eee;
+	border-left: 5px solid $green;
+	padding: 10px;
+}
+.white-border {
+    border: 1px solid #eee;
+}
+.color-box {
+    height: 110px;
+    margin: 10px 0;
+	padding: 10px;
+}
+.graident-height {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+/* FONTS */
+.gotham-thin{
+	font-family: $gotham-thin;
+}
+.gotham-book{
+	font-family: $gotham-book;
+}
+.gotham-bold{
+	font-family: $gotham-bold;
+}
+.gotham-ultra{
+	font-family: $gotham-ultra;
+}
+.round-gotham{
+	font-family: $round-gotham;
+}
+.round-italic{
+	font-family: $round-italic;
+}
+.round-thin{
+	font-family: $round-thin;
+}
+.round-ultra{
+	font-family: $round-ultra;
+}
+.font {
+    margin: 75px 0;
+	padding-left: 15px;	
+}
+.font:first-child{
+	margin: 0;
+}
+.font-text {
+    font-size: 2rem;
+}
+.heading-wrapper {
+    margin: 45px 0;
+	padding-left: 15px;
+	
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+	li{
+		list-style: none;
+	}
+}
+
+/* CODE */
+.highlight{
+	background: #fafafa;
+	border: 1px solid #eee;
+}
+.highlight pre {
+	padding: 10px;
+	border: none !important;
+	margin: 0 !important;
+}
+pre code {
+	white-space: normal;
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.c-ele{
+	color: #2f6f9f;
+}
+.c-prop{
+	color: #d44950;
+}
+.c-class{
+	color: #4f9fcf;
+}
+.c-tab{
+	padding-left: 20px;
+}
+code, kbd, pre, samp {
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+.code-example{
+	margin: 35px 0;
+}
+
+span.copyright {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}

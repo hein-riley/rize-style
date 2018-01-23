@@ -1,0 +1,30 @@
+/***********************************
+   GENERAL / NESTING / MORE
+***********************************/
+.parallax{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner{
+    @extend .parallax;
+    height: 380px;
+}
+.banner-wrapper{
+    position: relative;
+    top: 35%;
+}
+.banner h1{
+    @extend .text-shadow;
+    color: $white;
+    font-size: $banner-font;
+    text-align: center;
+	position: absolute;
+	left: 0;
+    right: 0;
+}
+.text-shadow{
+    text-shadow: 0px 3px 33px $black;
+}/* Scss Document */
+
